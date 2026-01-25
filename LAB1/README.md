@@ -114,6 +114,9 @@ UCS645
 
 ## Submitted By
 
-Name: Divyam Puri  
-Course: UCS645 (Parallel Computing)  
+Name: Divyam Puri
+Roll Number: 102483023
+Group: 3C43
+Course: UCS645 (Parallel & Distributed Computing)  
 Lab: OpenMP Lab 1
+
