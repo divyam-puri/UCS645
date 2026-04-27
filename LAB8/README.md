@@ -10,20 +10,12 @@
 ## 📂 Repository Structure
 
     LAB8/
-    ├── src/
-    │   ├── ex01_cuda_basics.cu
-    │   ├── ex02_memory_hierarchy.cu
-    │   ├── ex03_ml_primitives.cu
-    │   ├── ex04_cnn_layers.cu
-    │   └── ex05_mnist_cnn.cu
-    │
-    ├── graphs/
-    │   ├── q1_cpu_gpu_graph.png
-    │   └── q3_activation_graph.png
-    │
-    ├── report/
-    │   └── Assignment8_Report.docx
-    │
+    ├── ex01_cuda_basics.cu
+    ├── ex02_memory_hierarchy.cu
+    ├── ex03_ml_primitives.cu
+    ├── ex04_cnn_layers.cu
+    |── ex05_mnist_cnn.cu
+    |── Assignment8_Report.docx
     └── README.md
 
 ---
