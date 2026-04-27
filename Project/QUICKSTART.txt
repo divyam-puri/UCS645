@@ -1,0 +1,29 @@
+#!/bin/bash
+# QUICK START GUIDE
+# ==================
+
+# Step 1: Build the project
+cd password-cracker-hpc
+./scripts/build.sh
+
+# Step 2: Run locally (4 processes)
+mpirun -np 4 build/password_cracker
+
+# Step 3: Run with OpenMP (4 processes, 4 threads each)
+OMP_NUM_THREADS=4 mpirun -np 4 build/password_cracker
+
+# Step 4: Run benchmark suite
+./scripts/benchmark.sh
+
+# EXPECTED OUTPUT:
+# ================
+# [MASTER] MPI initialized with 4 processes
+# [MASTER] OpenMP threads per process: 4
+# [MASTER] Target password: test
+# [WORKER 1] Received assignment: range [0, 100000]
+# [WORKER 1] PASSWORD FOUND: test
+# ========== FINAL RESULTS ==========
+# PASSWORD FOUND: test
+# ======== STATISTICS ========
+
+echo "Quick start complete! Check output above for password found message."
